@@ -1,0 +1,204 @@
+   .fondo{
+     position: absolute;
+     background-color: rgb(fff);
+     top:0px;
+     margin-left: 0px;
+     height: 100%;
+     width: 100%;
+     animation: movin001 180s infinite;
+
+
+   }
+    .objetocentral{
+     position: absolute;
+     background-color: rgb(27, 27, 25);
+     top:45%;
+     margin-inline-start: 50%;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     animation: movin002 90s infinite;
+
+
+    }
+   
+   
+   .circulo{
+    width: 200px;
+    height:200px ;
+    top: 50%;
+    margin-left: 50%;
+    border-radius: 50%;
+    background: #25384b ;
+    position:fixed;
+    
+    animation: movin2 450s infinite;}
+        
+
+    .circulo2{
+    width: 200px;
+    height:200px ;
+    top: 50%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #25384b ;
+    position:fixed;
+    
+    animation: movin 30s infinite;}
+    
+    
+    .circulo3{
+    width: 5px;
+    height:5px ;
+    top: 50%;
+    margin-left: 50%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin2 15s infinite;}
+
+   
+
+
+   .circulo4{
+    width: 5px;
+    height:5px ;
+    top: 40%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #cfcc19e3 ;
+    position:fixed;
+   
+    animation: movin 10s infinite;}
+
+   .circulo5{
+    width: 5px;
+    height:5px ;
+    top: 57%;
+    margin-left: 55%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin2 s infinite;}
+
+     .circulo6{
+    width: 5px;
+    height:5px ;
+    top: 60%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin 9s infinite;}
+
+       .circulo7{
+    width: 5px;
+    height:5px ;
+    top: 60%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin 60s infinite;}
+
+         .circulo8{
+    width: 5px;
+    height:5px ;
+    top: 60%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin 18s infinite;}
+
+
+         .circulo9{
+    width: 5px;
+    height:5px ;
+    top: 60%;
+    margin-left: 60%;
+    border-radius: 50%;
+    background: #d5d6c4e3 ;
+    position:fixed;
+   
+    animation: movin 27s infinite;}
+
+
+
+  @keyframes movin001{
+        0% {background-color: fff;}
+    
+        25%{background-color:rgb(189, 185, 185) }
+        35%{background-clip:rgb(68, 61, 61)}
+        45%{background-color: blue}
+
+        50%{ background: black;}
+        65%{background-color:blueviolet }
+        75%{background-color:gray}
+        100% {background-color:white }
+  }      
+
+  @keyframes movin002{
+        0% {background-color:black; width:5px; height:5px ;}
+        10%{background-color:gray }
+        45{ height: 30px;width: 30px; }
+        50%{background-color: rgb(80, 72, 72); height: 200px; width: 200px}
+        100% {background-color: white; height: 5px; width: 5px}
+  }
+
+  @keyframes movin{
+         0% {width: 5px; height:5px ;margin-left: 50%}
+        25%{ margin-left: 35%}
+        50%{ margin-left:50% ;background-color:  rgb(255, 60, 0);height:50px;width:50px;}
+        75%{margin-left:65% }
+        100% {width: 5px;   height:5px;margin-left: 50%}
+   }
+   @keyframes movin2{
+        0% {width: 5px; height:5px ;top: 45%;margin-left: 50%}
+        25%{ top:60%; margin-left: 60%}
+        50%{ top:50%; margin-left:50% ;background-color:  rgb(255, 60, 0);height:50px;width:50px;}
+        75%{top:40%;margin-left:40% }
+        100% {width: 5px;   height:5px; top:45%}
+   }
+    @keyframes movin3{
+        0%{width: 0x; height:0px ;}
+        5%{width: 10x; height:10px ;}
+        10%{width: 0x; height:0px ;}
+        15%{width: 5x; height:20px ;}
+        25%{width: 0x; height:0px ;}
+        35%{width: 30x; height:5px ;}
+        55%{width: 0x; height:0px ; ;}
+        75%{width: 5x; height:5px ;}
+        100%{width: 1px; height: 1px;}
+       
+        }
+
+   @keyframes movin4{
+        0%{width: 0x; height:0px ;}
+        5%{width: 10x; height:10px ;}
+        10%{width: 0x; height:0px ;}
+        15%{width: 5x; height:20px ;}
+        25%{width: 0x; height:0px ;}
+        35%{width: 30x; height:5px ;}
+        55%{width: 0x; height:0px ; ;}
+        75%{width: 5x; height:5px ;}
+        100%{width: 1px; height: 1px;}
+       
+        }
+  @keyframes movin5{
+        0%{width: 0x; height:0px ;}
+        5%{width: 10x; height:10px ;}
+        10%{width: 0x; height:0px ;}
+        15%{width: 5x; height:20px ;}
+        25%{width: 0x; height:0px ;}
+        35%{width: 30x; height:5px ;}
+        55%{width: 0x; height:0px ; ;}
+        75%{width: 5x; height:5px ;}
+        100%{width: 1px; height: 1px;}
+       
+        }
